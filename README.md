@@ -133,7 +133,7 @@ int main() {
 
     cout << "Cab Finder API running on http://localhost:8080" << endl;
     svr.listen("localhost", 8080);
-}
+}```cpp
 
 ## How to Run
 
@@ -149,7 +149,7 @@ You can serve the frontend using a local HTTP server for proper API requests.
 ```bash
 # Open a terminal in the frontend folder
 cd frontend
-python3 -m http.server 5500
+python3 -m http.server 5500```bash
 Then open http://localhost:5500 in your browser.
 
 ###2. Backend
