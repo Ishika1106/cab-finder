@@ -147,17 +147,21 @@ You can serve the frontend using a local HTTP server for proper API requests.
 **Option 2: Serve using Python HTTP Server (Recommended)**
 
 # Open a terminal in the frontend folder
+```bash
 cd frontend
-python3 -m http.server 5500```bash
+python3 -m http.server 5500
 Then open http://localhost:5500 in your browser.
+```
 
 ###2. Backend
 Ensure you have a C++17 compatible compiler and cpp-httplib.h header.
 
 # Open a separate terminal in the backend folder
+```bash
 cd backend
 g++ -std=c++17 cab_finder.cpp -o cab_finder -pthread
 ./cab_finder
+```
 Backend will run at http://localhost:8080.
 
 Frontend fetches nearest cab data from this API.
