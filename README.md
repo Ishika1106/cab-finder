@@ -52,11 +52,13 @@ CabFinder is a web application that allows users to find the nearest cab in real
   - `lon` — User’s longitude  
 
 **Response Example:**
+```json
 {
   "nearest_cab": "Cab_1",
   "distance_km": "3.45"
 }
 ## Backend Code
+```cpp
 #include <iostream>
 #include <string>
 #include <vector>
