@@ -52,14 +52,11 @@ CabFinder is a web application that allows users to find the nearest cab in real
   - `lon` — User’s longitude  
 
 **Response Example:**
-```json
 {
   "nearest_cab": "Cab_1",
   "distance_km": "3.45"
-}```json
+}
 ## Backend Code
-
-```cpp
 #include <iostream>
 #include <string>
 #include <vector>
@@ -133,7 +130,7 @@ int main() {
 
     cout << "Cab Finder API running on http://localhost:8080" << endl;
     svr.listen("localhost", 8080);
-}```cpp
+}
 
 ## How to Run
 
@@ -146,7 +143,7 @@ You can serve the frontend using a local HTTP server for proper API requests.
 - Note: Direct file opening may cause CORS issues.
 
 **Option 2: Serve using Python HTTP Server (Recommended)**
-```bash
+
 # Open a terminal in the frontend folder
 cd frontend
 python3 -m http.server 5500```bash
